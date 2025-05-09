@@ -1,0 +1,21 @@
+/* src/pages/Home.css */
+
+.home {
+    background-color: #1f2333; /* Warna seperti figma */
+    color: white;
+    min-height: 100vh;
+    padding: 1rem;
+  }
+  .page-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .pokemon-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 1rem;
+    padding: 1rem 0;
+  }
+  

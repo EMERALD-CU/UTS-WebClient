@@ -1,0 +1,49 @@
+/* src/components/HeaderBar.css */
+.header-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1f2333;
+  padding: 0.5rem 1rem;
+  border: 2px solid #2d3653;
+  border-radius: 12px;
+}
+
+.logo {
+  height: 50px;
+  margin-bottom: 1.5rem;
+  margin-left: -1rem;
+}
+
+
+.search-icon {
+  width: 40px;
+  height: 40px;
+  color: #888
+}
+
+.search-wrapper {
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  border-radius: 8px;
+  padding: 0.5rem;
+  max-width: 60%;
+  margin-left: 2rem;
+  margin-right: -3rem;
+}
+
+
+.header-bar img {
+  height: 50px;
+}
+
+.search-input {
+  border: none;
+  outline: none;
+  background: transparent;
+  flex: 1;
+  color: white;
+  font-size: 1rem;
+  margin-left: 0.5rem;
+}

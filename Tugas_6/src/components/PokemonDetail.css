@@ -1,0 +1,91 @@
+  .pokemon-detail-container {
+    padding: 1rem;
+    color: white;
+    font-family: sans-serif;
+  }
+  
+  .back-button {
+    background: none;
+    color: #00bfff;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-bottom: 1rem;
+  }
+  
+  .pokemon-detail-card {
+    background-color: white;
+    border: 2px solid #3b82f6;
+    border-radius: 1rem;
+    padding: 1rem;
+    text-align: center;
+    max-width: 360px;
+    margin: 0 auto;
+  }
+  
+  .pokemon-main-img {
+    width: 200px;
+    height: auto;
+  }
+  
+  .pokemon-mini-img {
+    width: 140px;
+    height: auto;
+    position: absolute;
+    top: 400px;
+    right: 35px;
+  }
+  
+  .pokemon-name {
+    margin: 0.5rem 0;
+    font-size: 1.5rem;
+  }
+  
+  .pokemon-stats {
+    background-color: #111827;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    margin-top: 1rem;
+    text-align: left;
+  }
+  
+  .stat-title {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  .health-bar {
+    background-color: #374151;
+    height: 6px;
+    border-radius: 3px;
+    overflow: hidden;
+    margin-bottom: 0.5rem;
+  }
+  
+  .health-fill {
+    background-color: #22c55e;
+    height: 100%;
+  }
+  
+  .stat-value {
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+    color: #9ca3af;
+  }
+  
+  .stat-line {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .label {
+    font-size: 0.9rem;
+    color: #9ca3af;
+  }
+  
+  .value {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: white;
+  }
+  
